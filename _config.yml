@@ -1,0 +1,23 @@
+title: "Leo Capuano — Portfolio"
+author: "Leo Capuano"
+description: >-
+  Python developer & AI engineer. I build intelligent tools, RAG pipelines,
+  chatbots, and cloud utilities.
+email: ""
+baseurl: ""
+url: "https://leo-capvano.github.io"
+
+theme: minima
+
+minima:
+  social_links:
+    github: leo-capvano
+    linkedin: leo-capuano
+
+exclude:
+  - specs/
+  - .specify/
+  - .opencode/
+  - Gemfile
+  - Gemfile.lock
+  - README.md

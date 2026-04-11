@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Leo Capuano — Portfolio
 
 > Python developer & AI/ML engineer. I build intelligent tools, RAG pipelines, chatbots, and cloud utilities.
