@@ -85,8 +85,8 @@
 
 **Purpose**: Local preview validation and final commit.
 
-- [ ] T010 [P] Run `bundle exec jekyll serve` and validate the local site against the quickstart.md Step 5 acceptance checklist: theme renders, all content sections present, footer social links appear, anchor navigation works, and `http://localhost:4000/nonexistent` serves the custom 404 page
-- [ ] T011 Stage all new and modified files (`Gemfile`, `Gemfile.lock`, `_config.yml`, `index.md`, `404.md`, `about.md`) and create a conventional commit: `feat: add Jekyll support with minima theme and custom 404`
+- [X] T010 [P] Run `bundle exec jekyll serve` and validate the local site against the quickstart.md Step 5 acceptance checklist: theme renders, all content sections present, footer social links appear, anchor navigation works, and `http://localhost:4000/nonexistent` serves the custom 404 page
+- [X] T011 Stage all new and modified files (`Gemfile`, `Gemfile.lock`, `_config.yml`, `index.md`, `404.md`, `about.md`) and create a conventional commit: `feat: add Jekyll support with minima theme and custom 404`
 
 ---
 
