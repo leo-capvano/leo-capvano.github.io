@@ -30,3 +30,11 @@ Thumbs.db
 # Environment
 .env
 .env.*
+
+# SpecKit
+.specify/
+specs/
+
+# Opencode
+.opencode/
+AGENTS.md
