@@ -2,9 +2,9 @@
 layout: default
 ---
 
-# Leo Capuano — Portfolio
+# Leo Capuano
 
-> Python developer & AI/ML engineer. I build intelligent tools, RAG pipelines, chatbots, and cloud utilities.
+> Python developer & AI engineer. I build intelligent tools, RAG pipelines, chatbots, and cloud utilities.
 
 [GitHub](https://github.com/leo-capvano) · [LinkedIn](https://www.linkedin.com/in/leo-capuano/)
 
@@ -16,52 +16,10 @@ layout: default
 
 I'm a developer focused on **Generative AI**, **retrieval-augmented generation (RAG)**, and practical tooling. My work spans from Telegram bots to full-stack web apps, LLM fine-tuning pipelines, and DevOps utilities — always with a strong Python foundation.
 
-**Core skills:**
-
-- **AI/ML:** LangChain · OpenAI API · RAG · LLM fine-tuning · Ollama · pgvector · Sentiment Analysis
-- **Backend:** Python · FastAPI/REST · WebSocket · PostgreSQL · boto3 (AWS)
-- **Frontend:** Streamlit · React · TypeScript
-- **DevOps/Tooling:** Docker · Localstack · Docker Compose
-
----
-
-## Featured Projects
-
-### Generative AI Demos
-
-Suite of GenAI demos implementing RAG, LLM agents, and Streamlit UIs with support for both OpenAI and local models (Ollama/Mistral).
-
-**Stack:** Python · LangChain · OpenAI · Ollama · Streamlit · PostgreSQL + pgvector · Docker Compose
-
-- RAG with vector storage (pgvector)
-- Agent examples with custom tools
-- Support for local and cloud LLMs
-
-[View on GitHub →](https://github.com/leo-capvano/generative_ai_demos)
-
----
-
-### LLM Fine-Tuning with OpenAI
-
-End-to-end pipeline for fine-tuning an OpenAI model on a custom dataset and integrating the fine-tuned model into a conversational assistant ("Eva").
-
-**Stack:** Python · OpenAI fine-tuning API · JSONL datasets
-
-- Dataset preparation and upload scripts
-- Fine-tune job creation and monitoring
-- Chatbot integration using the fine-tuned model
-
-[View on GitHub →](https://github.com/leo-capvano/llm-fine-tuning-openai)
-
----
-
-### Cheshire Cat AI Core *(fork + extension)*
-
-Fork of the Cheshire Cat AI framework (API-first AI agent with RAG and plugin support). Extended to add **PostgreSQL + pgvector** as an alternative vector store alongside Qdrant.
-
-**Stack:** Python · LangChain · WebSocket · REST · PostgreSQL + pgvector · Docker
-
-[View on GitHub →](https://github.com/leo-capvano/cheshirecat-ai-core)
+A tech enthusiast.  
+An open‑source tinkerer.  
+An engineer fueled by code, curiosity, and caffeine.  
+A system integrator who connects more than just systems.
 
 ---
 
