@@ -38,3 +38,4 @@ specs/
 # Opencode
 .opencode/
 AGENTS.md
+opencode.json
