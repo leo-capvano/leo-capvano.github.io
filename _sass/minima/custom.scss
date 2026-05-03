@@ -1,0 +1,28 @@
+// Import Minima defaults first
+@import 'minima';
+
+// Import our custom variables
+@import 'custom-variables';
+
+// Global styles
+body {
+  background-color: $color-bg-primary;
+  color: $color-text-secondary;
+  font-family: $font-system;
+  line-height: $line-height-body;
+}
+
+a {
+  color: $color-accent-blue;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $color-text-primary;
+  line-height: $line-height-heading;
+  font-weight: 600;
+}
