@@ -188,3 +188,69 @@ code {
     background-color: $color-bg-secondary;
   }
 }
+
+// Responsive Design - Tablet (768px - 1023px)
+@media (max-width: 1023px) and (min-width: 768px) {
+  .site-title {
+    font-size: 2em;
+  }
+  
+  .site-content h2 {
+    font-size: 1em;
+  }
+  
+  .post-content h3 {
+    font-size: 1em;
+  }
+  
+  .project-card {
+    padding: $spacing-lg;
+    margin: $spacing-lg 0;
+  }
+}
+
+// Responsive Design - Mobile (< 768px)
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  
+  .site-header {
+    padding-top: $spacing-lg;
+    padding-bottom: $spacing-lg;
+  }
+  
+  .site-title {
+    font-size: 1.8em;
+  }
+  
+  .site-description {
+    font-size: 1em;
+  }
+  
+  .site-content h2 {
+    font-size: 1em;
+    margin: $spacing-lg 0 $spacing-md 0;
+    padding-bottom: $spacing-sm;
+  }
+  
+  .post-content h3 {
+    font-size: 1em;
+  }
+  
+  .project-card {
+    padding: $spacing-md;
+    margin: $spacing-lg 0;
+    border-radius: $border-radius-md;
+  }
+  
+  .tech-grid {
+    grid-template-columns: 1fr;
+    gap: $spacing-sm;
+  }
+  
+  .tech-item {
+    padding: $spacing-md;
+    font-size: 0.8em;
+  }
+}
