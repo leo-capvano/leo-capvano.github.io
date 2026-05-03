@@ -116,3 +116,45 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.95em;
   }
 }
+
+// Tech Tag Styling
+// Targets inline code or strong tech mentions
+.post-content code,
+.tech-tag {
+  background-color: $color-bg-secondary;
+  color: $color-tech-tag;
+  padding: $spacing-xs $spacing-sm;
+  border-radius: $border-radius-sm;
+  font-family: $font-mono;
+  font-size: 0.85em;
+  border: 1px solid $color-border;
+}
+
+// Tech tag container (for when tech is listed inline)
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-md;
+  margin: $spacing-md 0;
+  align-items: center;
+}
+
+.tech-item {
+  display: inline-block;
+  background-color: $color-bg-secondary;
+  color: $color-tech-tag;
+  padding: $spacing-xs $spacing-sm;
+  border-radius: $border-radius-sm;
+  font-family: $font-mono;
+  font-size: 0.85em;
+  border: 1px solid $color-border;
+  white-space: nowrap;
+}
+
+// Override Minima's code block styling
+code {
+  background-color: $color-bg-secondary;
+  color: $color-tech-tag;
+  padding: $spacing-xs $spacing-sm;
+  border-radius: $border-radius-sm;
+}
