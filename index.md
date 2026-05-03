@@ -23,45 +23,57 @@ A system integrator who connects more than just systems.
 
 ---
 
-## All Projects
+## Featured Projects
 
-### AI & Generative Models
-
-#### LazyGPT
+### LazyGPT
 
 Streamlit application for interacting with generative models, featuring a built-in **prompt template catalog** — create, edit, reuse, and manage prompts from a unified UI.
 
-**Stack:** Python · Streamlit · OpenAI · Docker
+**Tech:** Python · Streamlit · OpenAI · Docker
 
 [View on GitHub →](https://github.com/leo-capvano/LazyGPT)
 
 ---
 
-#### LangChain Agent Tools + OpenAI (Azure)
+### LangChain Agent Tools + OpenAI (Azure)
 
 Integration of LangChain agents with Azure OpenAI and PGVector as vector store. Extends the Azure "chat with your data" example with a learning-from-chat agent that can update its own knowledge base.
 
-**Stack:** Python · LangChain · Azure OpenAI · PostgreSQL + pgvector
+**Tech:** Python · LangChain · Azure OpenAI · PostgreSQL + pgvector
 
 [View on GitHub →](https://github.com/leo-capvano/Langchain-Agent-Tools-OpenAI)
 
 ---
 
-#### YouTube Transcriptor
+### YouTube Transcriptor
 
 Python package and Streamlit UI to extract YouTube video transcripts, translate them, and generate AI-powered summaries.
 
-**Stack:** Python · YouTube Transcript API · OpenAI · Streamlit · Docker
+**Tech:** Python · YouTube Transcript API · OpenAI · Streamlit · Docker
 
 [View on GitHub →](https://github.com/leo-capvano/Youtube-Transcriptor)
 
 ---
 
+### Chatbot UI React *(fork + extension)*
+
+Modern React + TypeScript chat interface for LLMs, with Markdown rendering and a Python WebSocket test backend for local development.
+
+**Tech:** React · TypeScript · Node/NPM · Python · WebSocket
+
+[View on GitHub →](https://github.com/leo-capvano/chatbot-ui-react)
+
+---
+
+## All Projects
+
+### AI & Generative Models
+
 #### Describe a Python Project
 
 Streamlit tool that uses a generative model to explain every file in a Python project in plain language — useful for onboarding and code exploration.
 
-**Stack:** Python · Streamlit · OpenAI API
+**Tech:** Python · Streamlit · OpenAI API
 
 [View on GitHub →](https://github.com/leo-capvano/describe-a-python-project)
 
@@ -71,7 +83,7 @@ Streamlit tool that uses a generative model to explain every file in a Python pr
 
 Benchmarking framework to evaluate multiple sentiment analysis tools across standard datasets (IMDb, Twitter US Airlines, Sentiment140) — measuring accuracy, hits/misses per tool.
 
-**Stack:** Python · NLP libraries · IMDb / Twitter / Sentiment140 datasets
+**Tech:** Python · NLP libraries · IMDb / Twitter / Sentiment140 datasets
 
 [View on GitHub →](https://github.com/leo-capvano/sentiment_analysis_benchmarking)
 
@@ -81,7 +93,7 @@ Benchmarking framework to evaluate multiple sentiment analysis tools across stan
 
 Curated collection of system prompts, tool definitions, and internal configurations from popular AI agents and coding assistants (v0, Manus, Cursor, and others). A research and reference resource.
 
-**Stack:** Markdown · Research / Documentation
+**Tech:** Markdown · Research / Documentation
 
 [View on GitHub →](https://github.com/leo-capvano/system-prompts-and-models-of-ai-tools)
 
@@ -93,7 +105,7 @@ Curated collection of system prompts, tool definitions, and internal configurati
 
 Desktop-friendly Streamlit interface for managing **S3 buckets** and **AWS Secrets Manager** on Localstack. Packaged as a standalone `.exe` for easy local use.
 
-**Stack:** Python · Streamlit · Localstack · boto3 · Docker
+**Tech:** Python · Streamlit · Localstack · boto3 · Docker
 
 [View on GitHub →](https://github.com/leo-capvano/Localstack-GUI)
 
@@ -103,7 +115,7 @@ Desktop-friendly Streamlit interface for managing **S3 buckets** and **AWS Secre
 
 Fork of [Freelens](https://freelens.app) — a free, open-source IDE for Kubernetes — with packaging support for Homebrew, WinGet, Flathub, Snap, and AUR.
 
-**Stack:** Node/NPM · TypeScript · Desktop packaging
+**Tech:** Node/NPM · TypeScript · Desktop packaging
 
 [View on GitHub →](https://github.com/leo-capvano/freelens)
 
@@ -111,21 +123,11 @@ Fork of [Freelens](https://freelens.app) — a free, open-source IDE for Kuberne
 
 ### Web & UI
 
-#### Chatbot UI React *(fork + extension)*
-
-Modern React + TypeScript chat interface for LLMs, with Markdown rendering and a Python WebSocket test backend for local development.
-
-**Stack:** React · TypeScript · Node/NPM · Python · WebSocket
-
-[View on GitHub →](https://github.com/leo-capvano/chatbot-ui-react)
-
----
-
 #### Discalculia Detector
 
 Web application designed to support clinicians in creating and administering **dyscalculia screening tests**. Collects responses, analyses results, and visualises scores with configurable alert thresholds.
 
-**Stack:** Java · Web (responsive UI) · Data visualisation
+**Tech:** Java · Web (responsive UI) · Data visualisation
 
 [View on GitHub →](https://github.com/leo-capvano/DiscalculiaDetector)
 
@@ -135,7 +137,7 @@ Web application designed to support clinicians in creating and administering **d
 
 Academic e-commerce web application developed for a Web Development university course, implementing core online store functionality.
 
-**Stack:** Java · JSP · Web
+**Tech:** Java · JSP · Web
 
 [View on GitHub →](https://github.com/leo-capvano/NeedsStore)
 
@@ -149,7 +151,7 @@ Academic e-commerce web application developed for a Web Development university c
 
 Telegram bot that fetches real-time COVID-19 statistics for Italy from the official Protezione Civile repository and delivers updates directly to users.
 
-**Stack:** Python · Telegram Bot API · HTTP (requests)
+**Tech:** Python · Telegram Bot API · HTTP (requests)
 
 [View on GitHub →](https://github.com/leo-capvano/aggiornamenti_covid-telegram-bot)
 
@@ -159,7 +161,7 @@ Telegram bot that fetches real-time COVID-19 statistics for Italy from the offic
 
 Telegram bot that calculates **Basal Metabolic Rate (BMR)** through a guided conversational flow — collecting age, weight, height, and gender from the user.
 
-**Stack:** Python · Telepot (Telegram client)
+**Tech:** Python · Telepot (Telegram client)
 
 [View on GitHub →](https://github.com/leo-capvano/calcolametabolismo_bot)
 
