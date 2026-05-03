@@ -58,3 +58,20 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.8em;
   }
 }
+
+// Section Header Styles (h2 elements used for section titles)
+.site-content h2 {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: $color-accent-orange;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: $spacing-xxl 0 $spacing-lg 0;
+  padding-bottom: $spacing-md;
+  border-bottom: 2px solid $color-border;
+}
+
+// Ensure proper spacing before section headers
+.post-content > h2:first-child {
+  margin-top: 0;
+}
