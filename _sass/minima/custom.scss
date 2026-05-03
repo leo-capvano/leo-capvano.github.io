@@ -75,3 +75,44 @@ h1, h2, h3, h4, h5, h6 {
 .post-content > h2:first-child {
   margin-top: 0;
 }
+
+// Project Card Styles (using h3 as project title indicator)
+.post-content h3 {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: $color-accent-blue;
+  margin: $spacing-lg 0 $spacing-sm 0;
+}
+
+// Wrapper for each project (the paragraph/description after h3)
+.post-content h3 + p {
+  margin: $spacing-sm 0;
+  color: $color-text-secondary;
+}
+
+// Project card container using blockquote or paragraph wrapping
+.project-card {
+  background-color: $color-bg-secondary;
+  border: 1px solid $color-border;
+  border-radius: $border-radius-md;
+  padding: $spacing-lg;
+  margin: $spacing-lg 0;
+  transition: $transition-smooth;
+  
+  &:hover {
+    border-color: $color-accent-blue;
+    background-color: $color-bg-primary;
+    box-shadow: 0 0 12px rgba(88, 166, 255, 0.15);
+  }
+  
+  h3 {
+    margin-top: 0;
+    color: $color-accent-blue;
+  }
+  
+  p {
+    margin: $spacing-sm 0;
+    color: $color-text-secondary;
+    font-size: 0.95em;
+  }
+}
