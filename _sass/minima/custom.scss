@@ -254,3 +254,67 @@ code {
     font-size: 0.8em;
   }
 }
+
+// Footer Styling
+.site-footer {
+  background-color: $color-bg-primary;
+  border-top: 1px solid $color-border;
+  color: $color-text-secondary;
+  padding-top: $spacing-xl;
+  padding-bottom: $spacing-xl;
+  margin-top: $spacing-xxl;
+}
+
+.footer-col-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-lg;
+}
+
+.footer-col {
+  flex: 1 1 auto;
+  min-width: 150px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  margin: $spacing-sm 0;
+}
+
+.contact-list a {
+  color: $color-accent-blue;
+  
+  &:hover {
+    color: $color-accent-orange;
+  }
+}
+
+// Social Links
+.social-links {
+  display: flex;
+  gap: $spacing-lg;
+  margin-top: $spacing-md;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: $border-radius-sm;
+  background-color: $color-bg-secondary;
+  color: $color-accent-blue;
+  transition: $transition-smooth;
+  
+  &:hover {
+    background-color: $color-accent-blue;
+    color: $color-bg-primary;
+    text-decoration: none;
+  }
+}
