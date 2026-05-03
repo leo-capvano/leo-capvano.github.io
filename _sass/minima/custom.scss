@@ -318,3 +318,53 @@ code {
     text-decoration: none;
   }
 }
+
+// Header Navigation Polish
+.site-nav {
+  .page-link {
+    color: $color-text-secondary;
+    border: none;
+    padding: $spacing-sm $spacing-md;
+    border-radius: $border-radius-sm;
+    transition: $transition-smooth;
+    
+    &:not(:last-child) {
+      margin-right: $spacing-sm;
+    }
+    
+    &:hover {
+      background-color: $color-bg-secondary;
+      color: $color-accent-blue;
+      text-decoration: none;
+    }
+  }
+}
+
+// Post/Page Title Styling
+.post-title {
+  font-size: 2em;
+  color: $color-accent-orange;
+  margin-bottom: $spacing-md;
+}
+
+.post-meta {
+  color: $color-text-secondary;
+  font-size: 0.9em;
+}
+
+.post-content {
+  margin-top: $spacing-lg;
+  
+  > p {
+    margin: $spacing-lg 0;
+  }
+  
+  > ul, > ol {
+    margin: $spacing-lg 0;
+    padding-left: $spacing-lg;
+    
+    li {
+      margin: $spacing-sm 0;
+    }
+  }
+}
