@@ -26,3 +26,35 @@ h1, h2, h3, h4, h5, h6 {
   line-height: $line-height-heading;
   font-weight: 600;
 }
+
+// Hero Section Styles
+.site-header {
+  background-color: $color-bg-primary;
+  border-bottom: 1px solid $color-border;
+  padding-top: $spacing-xl;
+  padding-bottom: $spacing-xl;
+}
+
+.site-title {
+  font-size: 2.5em;
+  color: $color-accent-orange;
+  font-weight: 600;
+  margin: 0;
+  
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.site-description {
+  color: $color-text-secondary;
+  font-size: 1.1em;
+  margin: $spacing-sm 0 0 0;
+}
+
+// Responsive: reduce title size on mobile
+@media (max-width: 767px) {
+  .site-title {
+    font-size: 1.8em;
+  }
+}
